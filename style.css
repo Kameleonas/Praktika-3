@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+table{
+    height: 30vh;
+    width: 50vw;
+    border-collapse: collapse;
+    font-size: 25px;
+}
+
+td, th{
+    border: 3px solid black;
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+    text-align: start;
+}
+
+.textColor{
+    color: aliceblue;
+}
+
+.pirma{
+    background-color: orange;
+}
+
+.antra{
+    background-color: blue;
+}
+
+.textColor.trecia{
+    background-color: green;
+}
